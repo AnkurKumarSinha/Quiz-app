@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 97vh;
+}
+
+.quizImage01 {
+  margin: 50px 0px;
+}
+
+.nameInput {
+  padding: 8px 10px;
+  font-size: 20px;
+  margin-bottom: 45px;
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.hr-line {
+  background-color: rgb(19, 150, 226);
+  width: 90vw;
+  height: 5px;
+  position: absolute;
+  top: 513px;
+}
+
+.start-btn {
+  padding: 10px 30px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  box-shadow: 2px 2px 10px black;
+  color: rgb(19, 150, 226);
+  font-weight: 700;
+  background-color: white;
+}
+
+.start-btn:hover, .end-btn:hover, .restart-btn:hover {
+  background-color: rgb(19, 150, 226);
+  color: white;
+}
+
+.secondPage, .thirdPage {
+  height: 97vh;
+  background-color: antiquewhite;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.brainLogo {
+  margin-left: 10vw;
+}
+
+.userName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 20vw;
+}
+
+.playerName {
+  font-size: 25px;
+}
+
+.quiz-box, .result {
+  margin: 0px 20vw;
+  padding: 10px;
+}
+
+.question-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.hr-question {
+  height: 4px;
+  width: 95vw;
+  background-color: rgb(19, 150, 226);
+  position: absolute;
+  top: 270px;
+  left: 30px;
+}
+
+.question-box {
+  border: 3px solid rgb(19, 150, 226);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.question {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.options-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.question-timer {
+  font-weight: 700;
+}
+
+.option {
+  font-size: 23px;
+  border: 3px solid rgb(19, 150, 226);
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: rgb(19, 150, 226);
+  color: white;
+}
+
+.hr-line-2 {
+  height: 4px;
+  width: 95vw;
+  background-color: rgb(19, 150, 226);
+  position: absolute;
+  top: 540px;
+  left: 30px;
+}
+
+.end-btn, .restart-btn {
+  padding: 10px 30px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 10px black;
+  position: relative;
+  color: rgb(19, 150, 226);
+  font-weight: 700;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.header02 { 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greet-box {
+  border: 3px solid rgb(19, 150, 226);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  width: 60vw;
+}
+
+.hr-line-04 {
+  height: 5px;
+  width: 95vw;
+  background-color: rgb(19, 150, 226);
+  position: absolute;
+  top: 230px;
+}
+
+.result-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px 0px;
+  width: 60vw;
+}
+
+.result-box span {
+  border: 3px solid rgb(19, 150, 226);
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+  font-weight: 700;
+}
+
+.hr-line-05 {
+  height: 5px;
+  position: absolute;
+  width: 95vw;
+  background-color: rgb(19, 150, 226);
+  top: 525px;
+}
